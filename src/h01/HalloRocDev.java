@@ -1,11 +1,20 @@
 package h01;
 
-/**
- * Created by  on 31-08-16.
- */
-public class HalloRocDev {
+import java.applet.Applet;
+import java.awt.*;
 
-    public static void main(String[] args) {
-        System.out.println("Hallo stefano ditoro!");
+public class HalloRocDev extends Applet {
+
+    public void init() {
+      setBackground(Color.white);
     }
-}
+
+      public void paint(Graphics g) {
+        g.setColor(Color.blue);
+        g.drawString("Steef!", 50, 60);
+
+        g.setColor(Color.RED);
+        g.drawString("di toro", 50, 70 );
+    }
+
+ }

@@ -1,4 +1,4 @@
-package h01;
+package H5;
 
 import java.applet.Applet;
 import java.awt.*;

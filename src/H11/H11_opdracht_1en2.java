@@ -3,7 +3,7 @@ package H11;
 import java.applet.Applet;
 import java.awt.*;
 
-public class H11_opdrachten extends Applet {
+public class H11_opdracht_1en2 extends Applet {
 
     public void init(){}
 
